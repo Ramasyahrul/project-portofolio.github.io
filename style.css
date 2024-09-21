@@ -8,9 +8,6 @@
     background-color: #0A1537;
   }
   
-  /* .navbar--hidden {
-    transform: translateY(-63px);
-  } */
   .navbar-brand {
     font-family: Viga;
     font-size: 25px;
@@ -27,10 +24,10 @@
    .home {
     font-family: Poppins;
     background-color: #0A1537;
-    min-height: 95vh; /* Menjaga tinggi minimal sesuai dengan tinggi layar */
-    display: flex; /* Membuat konten bisa ditengah secara vertikal */
-    align-items: center; /* Menjaga konten tetap di tengah secara vertikal */
-    padding: 5px 0; /* Memberikan padding atas dan bawah */
+    min-height: 95vh; 
+    display: flex; 
+    align-items: center; 
+    padding: 5px 0; 
   }
 
   /* about */
@@ -44,31 +41,31 @@
     
   }
   .container-rectangle {
-    display: flex; /* Menggunakan flexbox untuk tata letak */
-    flex-wrap: wrap; /* Membungkus kotak ke baris baru jika perlu */
-    justify-content: flex-start; /* Rata kiri */
-    gap: 20px; /* Jarak antara kotak */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    gap: 20px; 
   }
   .rectangle {
-    width: 92px; /* Atur lebar kotak */
-    height: 33px; /* Atur tinggi kotak */
-    background-color: #D9D9D9; /* Warna latar belakang kotak */
-    display: flex; /* Gunakan flexbox untuk pusatkan konten */
-    justify-content: center; /* Pusatkan secara horizontal */
-    align-items: center; /* Pusatkan secara vertikal */
-    border-radius: 10px; /* Atur sudut lengkung (opsional) */
-    color: 50545C; /* Warna teks */
-    font-size: 16px; /* Ukuran font */
+    width: 92px; 
+    height: 33px; 
+    background-color: #D9D9D9; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    color: 50545C; 
+    font-size: 16px; 
   }
   /* Media query untuk desktop */
   @media (min-width: 768px) {
     .about {
-        min-height: 85vh; /* Mengurangi tinggi untuk desktop */
-        padding: 40px; /* Atur padding untuk memberikan ruang lebih */
+        min-height: 85vh; 
+        padding: 40px; 
     }
 
     .text-about-jd, .text-about-desc {
-        margin-bottom: 15px; /* Mengurangi margin di desktop */
+        margin-bottom: 15px; 
     }
   }
 
@@ -83,20 +80,20 @@
   }
 
   .card-img-top {
-    transition: transform 0.5s ease-in-out; /* Animasi zoom yang halus */
+    transition: transform 0.5s ease-in-out; 
   }
   
   .card:hover .card-img-top {
-    transform: scale(1.1); /* Zoom 10% */
+    transform: scale(1.1);
   }
   .custom-card {
-    background-color: #f0f0f0; /* Warna latar belakang kartu (contoh warna abu-abu) */
-    color: #333; /* Warna teks */
-    border: none; /* Menghapus border default kartu (opsional) */
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: none; 
   }
   
   .custom-card:hover {
-    background-color: #e0e0e0; /* Warna latar belakang saat hover */
+    background-color: #e0e0e0; 
   }
 
   /* contact */
